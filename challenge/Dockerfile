@@ -31,7 +31,7 @@ RUN cd && \
     cp /.deploy_key .ssh/id_rsa && \
     chmod 600 .ssh/id_rsa && \
     ssh-keyscan github.com >> .ssh/known_hosts && \
-    git clone git@github.com:Gram21/pdfmaker_chall.git .chall
+    git clone git@github.com:Gram21/33c3_pdfmaker.git .chall
 
 RUN echo "export HISTFILE=" >> ~/.bashrc
 RUN rm -f ~/.bash_history
