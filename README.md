@@ -1,4 +1,5 @@
 # 33c3_pdfmaker
+Challenge for the [33c3ctf](https://33c3ctf.ccc.ac) worth 75 points.
 
 ## Setup
 To get the code:
